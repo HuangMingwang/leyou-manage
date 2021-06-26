@@ -3,7 +3,7 @@ const config = {
   debug: {
     http: false // http request log
   },
-  api: 'http://api.leyou.com',
+  api: 'http://api.wl9939.top',
   theme:{
     primary: "#3F51B5",
     secondary: "#455A64",
