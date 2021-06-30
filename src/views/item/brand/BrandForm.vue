@@ -1,6 +1,6 @@
 ﻿<template>
   <v-card>
-    <v-card-title class="elevation-1">
+    <v-card-title class="elevation-1,box">
       <span class="headline" v-text="isEdit ? '修改品牌' : '新增品牌'"></span>
     </v-card-title>
     <v-divider/>

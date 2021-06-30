@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    let id = 21
+    let arr = [
+      {
+        "id": 21,
+        "roleName": "李泉",
+        "roleDesc": "总经理", 
+      },
+      {
+        "id": 32,
+        "roleName": "王其",
+        "roleDesc": "1部门经理",
+      },
+      {
+        "id": 43,
+        "roleName": "陈想",
+        "roleDesc": "2部门经理",
+      },
+      {
+        "id": 14,
+        "roleName": "文奇",
+        "roleDesc": "3部门经理"
+      },
+    ]
+
+    let res = arr.filter(item=>{
+      return item.id !== id
+    })
+    console.log(res);
+    
+
+  </script>
+  
+</body>
+</html>

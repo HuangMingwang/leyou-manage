@@ -7,7 +7,7 @@
   export default {
     data() {
       return {
-        name: "虎哥",
+        name: "",
         num: 10
       }
     },

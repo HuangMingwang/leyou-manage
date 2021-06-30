@@ -25,13 +25,23 @@ export default new Router({
         route("/index/dashboard","/Dashboard","Dashboard"),
         // 定义的是路径hash值与组件位置的映射关系
         // 第一个参数：路径hash值，第二个参数：组件的位置，相对于src/views，第三个参数是组件名称
-        route("/item/category",'/item/Category',"Category"),
+        route("/item/category",'/item/category/category',"Category"),
         route("/item/brand",'/item/brand/Index',"Brand"),
         route("/item/list",'/item/goods/Index',"Goods"),
         route("/item/specification",'/item/specification/Index',"Specification"),
-        route("/user/statistics",'/item/Statistics',"Statistics"),
-        route("/trade/promotion",'/trade/Promotion',"Promotion"),
+
+        route("/user/statistics",'/user/Statistics',"Statistics"),
+        route("/user/list",'/user/ListShow',"ListShow"),
+
+        route("/trade/promotion",'/trade/Promotion',"promotion"),
+        route("/trade/order",'/trade/Order',"Order"),
+        route("/trade/statistics",'/trade/Statistics',"statistics"),
+        route("/trade/logistics",'/trade/Logistics',"Logistics"),
+
         route("/auth/services",'/auth/Services',"Services"),
+        route("/auth/list",'/auth/Power',"PowerMange"),
+        route("/auth/role",'/auth/Role',"RoleMange"),
+        route("/auth/member",'/auth/Member',"Member"),
       ]
     }
   ]
